@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AravindWebServices</string>
+
+    <string name="fake_Api">"https://jsonplaceholder.typicode.com/posts"</string>
+</resources>
