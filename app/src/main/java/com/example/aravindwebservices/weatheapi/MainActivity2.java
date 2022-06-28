@@ -1,8 +1,7 @@
-package com.example.aravindwebservices;
+package com.example.aravindwebservices.weatheapi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +15,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.aravindwebservices.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

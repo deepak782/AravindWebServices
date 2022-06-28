@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">AravindWebServices</string>
 
+    <!--GET METHOD -->
     <string name="fake_Api">"https://jsonplaceholder.typicode.com/posts"</string>
+    <!--GET/POST METHOD  -->
     <string name="weather_api_key">a847de79ed9e5152022f478c2675fdf2</string>
+
+    <!--POST METHOD -->
+    <string name="login_api_office">"https://www.androiddada.com/Clostitch/Code/Clo/Login"</string>
+    <!--POST METHOD -->
+    <string name="signup_api_office">"https://www.androiddada.com/Clostitch/Code/Clo/Register"</string>
+    <!--GET METHOD -->
+    <string name="allusers_api_office">"https://www.androiddada.com/Clostitch/Code/Clo/Users"</string>
 </resources>

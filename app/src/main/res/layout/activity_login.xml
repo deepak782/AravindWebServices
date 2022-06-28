@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".officeApi.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/email_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="9000733770"
+        android:hint="Email or Mobile"
+        android:paddingLeft="10dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:text="123456"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:layout_margin="10dp"
+        android:id="@+id/login_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup Here?"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:id="@+id/txt_signup"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Response"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+
+
+        android:layout_margin="10dp"
+        android:id="@+id/txt_response1"/>
+</LinearLayout>
