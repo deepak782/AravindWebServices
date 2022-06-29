@@ -13,13 +13,10 @@
         android:theme="@style/Theme.AravindWebServices"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".officeApi.UserActivity"
+            android:name=".tokenapi.DoctorsListActivity"
             android:exported="false" />
         <activity
-            android:name=".officeApi.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".officeApi.LoginActivity"
+            android:name=".tokenapi.TokenLoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,12 +25,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".officeApi.UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".officeApi.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".officeApi.LoginActivity"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".weatheapi.MainActivity2"
-            android:exported="false"/>
-
+            android:exported="false" />
     </application>
 
 </manifest>

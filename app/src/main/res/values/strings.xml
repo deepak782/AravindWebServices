@@ -12,4 +12,8 @@
     <string name="signup_api_office">"https://www.androiddada.com/Clostitch/Code/Clo/Register"</string>
     <!--GET METHOD -->
     <string name="allusers_api_office">"https://www.androiddada.com/Clostitch/Code/Clo/Users"</string>
+
+    <!--POST METHOD -->
+    <string name="doctor_api">"http://ec2-184-72-212-211.compute-1.amazonaws.com/DoctorAppAws/api"</string>
+    <string name="doctor_key">"WitrdHBRcmpSMjJ5L3BLa0NITXY1Zz09OjpL9i8Ocbb3tPpOq09kfTTd"</string>
 </resources>
